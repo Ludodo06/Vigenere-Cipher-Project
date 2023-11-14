@@ -22,7 +22,7 @@ def compute_letters_frequency(input_string):
    """
     Python Program:
     Using a dictionary to store the char frequency in string
-"""
+    """
    letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
    input_string = input_string.lower()
    chars_in_string = Counter(input_string)
